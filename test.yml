@@ -1,4 +1,4 @@
--name : Testplaybook
+-name : sampleplaybook
  hosts : all
   tasks : 
    -name : printhello
