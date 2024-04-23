@@ -1,6 +1,5 @@
 -name : Testplaybook
- hosts : all
- become : Yes
+ hosts : all
   tasks : 
    -name : printhello
    ansible.builtin.debug : 
