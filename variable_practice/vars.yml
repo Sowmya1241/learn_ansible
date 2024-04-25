@@ -1,9 +1,8 @@
 - name: Demoonvars
   hosts: all
   vars:
-   URL_PLAY = play.example.com
+   URL_PLAY= play.example.com
   tasks:
    - name: printvariable
      ansible.builtin.debug:
       msg: URL_PLAY-{{URL_PLAY}}
-      
