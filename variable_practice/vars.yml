@@ -8,6 +8,6 @@
       msg: URL_PLAY-{{URL_PLAY}}
    - name: printtastvariable
      ansible.builtin.debug:
-       msg: URL_TASK-{{URL-TASK}}
-      vars:
-          URL_TASK: task.example.com
+       msg: URL_TASK-{{URL_TASK}}
+     vars:
+       URL_TASK: task.example.com
