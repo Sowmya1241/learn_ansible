@@ -1,5 +1,5 @@
 - name: Demoonvars
-  hosts: all
+  host: all
   vars:
     URL_PLAY:  play.example.com
   tasks:
