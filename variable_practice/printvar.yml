@@ -8,7 +8,7 @@
       msg: URL_PLAY-{{URL_PLAY}}
    - name: printtaskvariable
      ansible.builtin.debug:
-      msg: PRINT_TASK-{{PRINT_TASK}}
+      msg: URL_TASK-{{URL_TASK}}
      vars:
       URL_TASK: Task.example.com
   roles:
