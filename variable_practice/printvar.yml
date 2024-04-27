@@ -1,10 +1,15 @@
 - name: Demoonvars
-  hosts: all
+  hosts: localhost
   vars:
     URL_PLAY: play.example.com
   tasks:
    - name: printvariable
      ansible.builtin.debug:
       msg: URL_PLAY-{{URL_PLAY}}
+   - name: printtaskvariable
+     ansible.builtin.debug:
+      msg: PRINT_TASK-{{PRINT_TASK}}
+     vars:
+      URL_TASK: Task.example.com
   roles:
     - demo
